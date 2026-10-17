@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "EEE",
+    "EWE",
+    "EEE"
+  ],
+  "key": {
+    "E": {
+      "item": "trainees:elastomeric_material"
+    },
+    "W": {
+      "item": "minecraft:white_wool"
+    }
+  },
+  "result": {
+    "item": "trainees:ion_membrane",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:elastomeric_material"
+          ]
+        }
+      ]
+    }
+  }
+}

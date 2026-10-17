@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " C ",
+    "CCC",
+    " C "
+  ],
+  "key": {
+    "C": {
+      "item": "trainees:che_ji2o2_nugget"
+    }
+  },
+  "result": {
+    "item": "trainees:che_ji2o2_ingot",
+    "count": 2
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:che_ji2o2_nugget"
+          ]
+        }
+      ]
+    }
+  }
+}

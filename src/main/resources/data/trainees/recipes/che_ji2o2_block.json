@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    },
+    {
+      "item": "trainees:che_ji2o2_ingot"
+    }
+  ],
+  "result": {
+    "item": "trainees:che_ji2o2_block",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:che_ji2o2_ingot"
+          ]
+        }
+      ]
+    }
+  }
+}

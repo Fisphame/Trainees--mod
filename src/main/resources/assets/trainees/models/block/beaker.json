@@ -1,0 +1,21 @@
+{
+  "parent": "minecraft:block/block",
+  "textures": {
+    "particle": "minecraft:block/glass",
+    "beaker": "minecraft:block/glass"
+  },
+  "elements": [
+    {
+      "from": [2, 0, 2],
+      "to": [14, 12, 14],
+      "faces": {
+        "down":  { "texture": "#beaker", "cullface": "down" },
+        "up":    { "texture": "#beaker" },
+        "north": { "texture": "#beaker" },
+        "south": { "texture": "#beaker" },
+        "west":  { "texture": "#beaker" },
+        "east":  { "texture": "#beaker" }
+      }
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+    "variants": {
+        "type=complete": {
+            "model": "trainees:block/kun_altar_complete"
+        },
+        "type=half": {
+            "model": "trainees:block/kun_altar_half"
+        }
+    }
+}

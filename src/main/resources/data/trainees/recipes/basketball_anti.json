@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "CCC",
+    "CKC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "trainees:che_jibp_piece"
+    },
+    "K": {
+      "item": "trainees:kun_basketball"
+    }
+  },
+  "result": {
+    "item": "trainees:basketball_anti",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:kun_basketball"
+          ]
+        }
+      ]
+    }
+  }
+}

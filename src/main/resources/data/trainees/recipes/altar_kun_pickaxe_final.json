@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 20000,
+  "input1": {
+    "item": "trainees:kun_pickaxe"
+  },
+  "input2": {
+    "item": "trainees:upgrade_theme"
+  },
+  "input3": {
+    "item": "trainees:two_half_ingot"
+  },
+  "input4": {
+    "item": "trainees:two_half_ingot"
+  },
+  "result": {
+    "item": "trainees:kun_pickaxe_final",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

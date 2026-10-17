@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 120000,
+  "input1": {
+    "item": "trainees:kun_basketball"
+  },
+  "input2": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "input3": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "input4": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "result": {
+    "item": "trainees:basketball_anti",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

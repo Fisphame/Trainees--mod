@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "trainees:pei_fang_block"
+        },
+        "title": {
+            "translate": "advancements.trainees.pei_fang_block.title"
+        },
+        "description": {
+            "translate": "advancements.trainees.pei_fang_block.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "parent": "trainees:root",
+    "criteria": {
+        "obtain_pei_fang_block": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["trainees:pei_fang_block"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    }
+}

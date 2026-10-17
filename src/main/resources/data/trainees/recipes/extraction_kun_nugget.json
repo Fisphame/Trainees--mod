@@ -1,0 +1,10 @@
+{
+  "type": "trainees:extraction",
+  "input": { "item": "trainees:kun_nugget" },
+  "energy": 240,
+  "time": 20,
+  "cost": 0,
+  "byproducts": [],
+  "minTier": 0,
+  "maxTier": 4
+}

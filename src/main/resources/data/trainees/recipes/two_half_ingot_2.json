@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "trainees:two_half_ingot_block"
+    }
+  ],
+  "result": {
+    "item": "trainees:two_half_ingot",
+    "count": 9
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:two_half_ingot_block"]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:two_half_ingot"
+    },
+    "title": {
+      "translate": "advancements.trainees.two_half_ingot.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.two_half_ingot.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:items/kun_nugget",
+  "criteria": {
+    "obtain_two_half_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:two_half_ingot"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "trainees:kun_nugget",
+      "trainees:kun_axe",
+      "trainees:kun_dagger",
+      "trainees:kun_hoe",
+      "trainees:kun_mace",
+      "trainees:kun_pickaxe",
+      "trainees:kun_scythe_1",
+      "trainees:kun_shovel",
+      "trainees:kun_sword",
+      "trainees:two_half_ingot_block",
+      "trainees:ahkun_apple",
+      "trainees:big_ahkun_apple",
+      "trainees:real_apple",
+      "trainees:real_diamond_pickaxe"
+    ]
+  }
+}

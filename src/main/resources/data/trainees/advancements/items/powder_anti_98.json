@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:powder_anti_98"
+    },
+    "title": {
+      "translate": "advancements.trainees.powder_anti_98.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.powder_anti_98.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trainees:items/powder_anti_97",
+  "criteria": {
+    "obtain_powder_anti_98": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti_98"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 531441
+  }
+}

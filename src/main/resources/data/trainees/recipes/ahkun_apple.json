@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FGF",
+    "HEH",
+    "FGF"
+  ],
+  "key": {
+    "E": { "item": "minecraft:enchanted_golden_apple" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "F": { "item": "minecraft:feather"},
+    "H": { "item": "trainees:two_half_ingot"}
+  },
+  "result": {
+    "item": "trainees:ahkun_apple"
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:two_half_ingot"]
+        }
+      ]
+    }
+  }
+}

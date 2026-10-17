@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "trainees:block/absorb_block_top",
+        "bottom": "trainees:block/absorb_block_bottom",
+        "side": "trainees:block/absorb_block"
+    }
+}

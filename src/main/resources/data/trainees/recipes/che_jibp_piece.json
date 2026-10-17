@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:che_jibp_block"
+    }
+  ],
+  "result": {
+    "item": "trainees:che_jibp_piece",
+    "count": 9
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:che_jibp_block"
+          ]
+        }
+      ]
+    }
+  }
+}

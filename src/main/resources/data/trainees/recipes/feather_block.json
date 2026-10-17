@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FFF",
+    "FFF",
+    "FFF"
+  ],
+  "key": {
+    "F": { "item": "minecraft:feather" }
+  },
+  "result": {
+    "item": "trainees:feather_block",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:feather"]
+          }
+        ]
+      }
+    }
+  }
+
+}

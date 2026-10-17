@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trainees:item/substance/powder",
+    "layer1": "trainees:item/substance/bottle"
+  },
+  "overrides": [
+    { "predicate": { "trainees:form": 0 }, "model": "trainees:item/substance_powder" },
+    { "predicate": { "trainees:form": 1 }, "model": "trainees:item/substance_crystal" },
+    { "predicate": { "trainees:form": 2 }, "model": "trainees:item/substance_granule" },
+    { "predicate": { "trainees:form": 3 }, "model": "trainees:item/substance_bulk" },
+    { "predicate": { "trainees:form": 4 }, "model": "trainees:item/substance_liquid" },
+    { "predicate": { "trainees:form": 5 }, "model": "trainees:item/substance_solution" },
+    { "predicate": { "trainees:form": 6 }, "model": "trainees:item/substance_gas" }
+  ]
+}

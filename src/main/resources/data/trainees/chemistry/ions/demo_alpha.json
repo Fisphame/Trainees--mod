@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "phase": "SOLID",
+  "molarMass": 100.0,
+  "specificHeat": 50.0,
+  "formationEnthalpy": -100.0,
+  "formationGibbs": -120.0,
+  "toxicity": 0,
+  "flameColor": "0x88CCFF",
+  "displayColor": "0x88CCFF",
+  "form": "POWDER",
+  "tags": [],
+  "stableRange": { "min": 0, "max": 2000 }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 4000,
+  "input1": {
+    "item": "minecraft:egg"
+  },
+  "input2": {
+    "item": "minecraft:gold_block"
+  },
+  "input3": {
+    "item": "minecraft:gold_block"
+  },
+  "input4": {
+    "item": "minecraft:gold_block"
+  },
+  "result": {
+    "item": "trainees:gold_egg",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

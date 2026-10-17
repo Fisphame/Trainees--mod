@@ -1,0 +1,10 @@
+{
+    "type": "trainees:duihuanquan",
+    "conditions": [
+        {
+            "condition": "forge:loot_table_id",
+            "loot_table_id": "#forge:chests/village"
+        }
+    ],
+    "chance": 1.0
+}

@@ -1,0 +1,31 @@
+{
+  "type": "trainees:trainer_altar",
+  "input1": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "input2": {
+    "item": "trainees:upgrade_theme"
+  },
+  "input3": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "input4": {
+    "item": "trainees:che_jibp_piece"
+  },
+  "result": {
+    "item": "trainees:upgrade_theme_armor",
+    "count": 3
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

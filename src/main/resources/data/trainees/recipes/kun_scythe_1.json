@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TTT",
+    "  S",
+    "  S"
+  ],
+  "key": {
+    "T": { "item": "trainees:two_half_ingot" },
+    "S": { "tag": "trainees:stone_stick" }
+  },
+  "result": {
+    "item": "trainees:kun_scythe"
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:two_half_ingot"]
+        }
+      ]
+    }
+  }
+}

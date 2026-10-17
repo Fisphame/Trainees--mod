@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trainees:item/substance/solution",
+    "layer1": "trainees:item/substance/bottle"
+  }
+}

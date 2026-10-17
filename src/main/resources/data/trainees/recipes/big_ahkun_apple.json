@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "FGF",
+    "HAH",
+    "FGF"
+  ],
+  "key": {
+    "A": { "item": "trainees:ahkun_apple" },
+    "G": { "item": "minecraft:gold_ingot" },
+    "F": { "item": "minecraft:feather"},
+    "H": { "item": "trainees:two_half_ingot_block"}
+  },
+  "result": {
+    "item": "trainees:big_ahkun_apple"
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:two_half_ingot"]
+        }
+      ]
+    }
+  }
+}

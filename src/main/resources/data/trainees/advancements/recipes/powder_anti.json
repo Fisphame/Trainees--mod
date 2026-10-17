@@ -1,0 +1,28 @@
+{
+  "criteria": {
+    "obtain_powder_anti": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "trainees:powder_anti_4",
+      "trainees:powder_anti_9",
+      "trainees:powder_anti_92",
+      "trainees:powder_anti_93",
+      "trainees:powder_anti_94",
+      "trainees:powder_anti_95",
+      "trainees:powder_anti_96",
+      "trainees:powder_anti_97",
+      "trainees:powder_anti_98",
+      "trainees:powder_anti_99"
+    ]
+  }
+}

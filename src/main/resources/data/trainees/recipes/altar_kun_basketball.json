@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 4000,
+  "input1": {
+    "item": "trainees:two_half_ingot"
+  },
+  "input2": {
+    "item": "minecraft:egg"
+  },
+  "input3": {
+    "item": "minecraft:egg"
+  },
+  "input4": {
+    "item": "trainees:elastomeric_core"
+  },
+  "result": {
+    "item": "trainees:kun_basketball",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

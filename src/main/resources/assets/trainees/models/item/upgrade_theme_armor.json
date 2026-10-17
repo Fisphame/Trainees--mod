@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trainees:item/upgrade_theme_armor"
+  }
+}

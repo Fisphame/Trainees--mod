@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:the_the_longest_real_diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.trainees.the_the_longest_real_diamond_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.the_the_longest_real_diamond_pickaxe.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:items/real_diamond_pickaxe",
+  "criteria": {
+    "obtain_real_diamond_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:the_the_longest_real_diamond_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 114,
+    "recipes": [
+      "trainees:real_diamond_pickaxe_zip"
+    ]
+  }
+}

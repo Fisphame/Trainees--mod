@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "obtain_diamond_pickaxe": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:diamond_pickaxe"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "trainees:real_diamond_pickaxe"
+        ]
+    }
+}

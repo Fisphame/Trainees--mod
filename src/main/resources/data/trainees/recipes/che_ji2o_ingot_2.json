@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "trainees:che_ji2o_block"
+    }
+  ],
+  "result": {
+    "item": "trainees:che_ji2o_ingot",
+    "count": 9
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:che_ji2o_block"
+          ]
+        }
+      ]
+    }
+  }
+}

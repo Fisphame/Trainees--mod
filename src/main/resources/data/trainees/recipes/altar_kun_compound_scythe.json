@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 20000,
+  "input1": {
+    "item": "trainees:kun_scythe"
+  },
+  "input2": {
+    "item": "trainees:upgrade_theme"
+  },
+  "input3": {
+    "item": "trainees:kun_dagger"
+  },
+  "input4": {
+    "item": "trainees:kun_sword"
+  },
+  "result": {
+    "item": "trainees:kun_compound_scythe",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

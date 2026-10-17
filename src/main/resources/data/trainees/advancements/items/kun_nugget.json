@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:kun_nugget"
+    },
+    "title": {
+      "translate": "advancements.trainees.kun_nugget.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.kun_nugget.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:entity/kun_trainees",
+  "criteria": {
+    "obtain_kun_nugget": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:kun_nugget"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "trainees:two_half_ingot_1"
+    ]
+  }
+}

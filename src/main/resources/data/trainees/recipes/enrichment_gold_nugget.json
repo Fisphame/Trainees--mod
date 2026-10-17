@@ -1,0 +1,11 @@
+{
+  "type": "trainees:enrichment",
+  "item": { "item": "minecraft:gold_nugget" },
+  "catalyst": { "item": "minecraft:glowstone_dust" },
+  "fluid": { "fluid": "minecraft:water", "amount": 250 },
+  "energy": 400,
+  "time": 100,
+  "results": [
+    { "item": "minecraft:gold_ingot", "count": 1 }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:entity/chicken",
+  "textures": {
+    "layer0": "trainees:entity/kun_anti"
+  }
+}

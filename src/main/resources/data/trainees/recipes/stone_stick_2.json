@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:stone_stick_t"
+    }
+  ],
+  "result": {
+    "item": "trainees:stone_stick",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:stone_stick"
+          ]
+        }
+      ]
+    }
+  }
+}

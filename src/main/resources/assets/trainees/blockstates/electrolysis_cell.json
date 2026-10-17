@@ -1,0 +1,8 @@
+{
+  "variants": {
+    "facing=north": { "model": "trainees:block/electrolysis_cell" },
+    "facing=east": { "model": "trainees:block/electrolysis_cell", "y": 90 },
+    "facing=south": { "model": "trainees:block/electrolysis_cell", "y": 180 },
+    "facing=west": { "model": "trainees:block/electrolysis_cell", "y": 270 }
+  }
+}

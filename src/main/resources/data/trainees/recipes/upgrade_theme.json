@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "STS",
+    "FDF",
+    "GTG"
+  ],
+  "key": {
+    "T": { "item": "trainees:two_half_ingot_block" },
+    "S": { "item": "minecraft:netherrack"},
+    "F": { "item": "trainees:feather_block"},
+    "D": { "item": "minecraft:diamond"},
+    "G": { "item": "minecraft:golden_apple"}
+  },
+  "result": {
+    "item": "trainees:upgrade_theme",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:two_half_ingot_block"]
+          }
+        ]
+      }
+    }
+  }
+}

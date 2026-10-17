@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " E ",
+    "EAE",
+    " E "
+  ],
+  "key": {
+    "E": {
+      "item": "trainees:elastomeric_material"
+    },
+    "A": {
+      "item": "trainees:auriversite_nugget"
+    }
+  },
+  "result": {
+    "item": "trainees:elastomeric_core",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:elastomeric_material"
+          ]
+        }
+      ]
+    }
+  }
+}

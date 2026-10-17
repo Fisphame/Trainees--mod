@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "S": { "item": "trainees:longer_stick" }
+  },
+  "result": {
+    "item": "trainees:longest_stick",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:longer_stick"]
+          }
+        ]
+      }
+    }
+  }
+}

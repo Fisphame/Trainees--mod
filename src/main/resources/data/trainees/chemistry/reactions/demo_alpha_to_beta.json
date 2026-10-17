@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "reactants": [ { "ion": "trainees:demo_alpha", "count": 1 } ],
+  "products": [ { "ion": "trainees:demo_beta", "count": 1 } ],
+  "thermo": {
+    "deltaH": "computed",
+    "deltaG": "computed"
+  },
+  "kinetics": {
+    "activationEnergy": 50.0,
+    "preExponentialFactor": 1.0
+  },
+  "gates": {
+    "minTemperature": 300.0
+  },
+  "flags": { "quiet": false, "selfLoop": false },
+  "family": "CHEMICAL",
+  "priority": { "function": "trainees:demo_bias" }
+}

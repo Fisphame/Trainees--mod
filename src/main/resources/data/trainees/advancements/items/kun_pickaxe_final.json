@@ -1,0 +1,33 @@
+{
+    "display": {
+        "icon": {
+            "item": "trainees:kun_pickaxe_final"
+        },
+        "title": {
+            "translate": "advancements.trainees.kun_pickaxe_final.title"
+        },
+        "description": {
+            "translate": "advancements.trainees.kun_pickaxe_final.description"
+        },
+        "frame": "goal",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "trainees:items/upgrade_theme",
+    "criteria": {
+        "obtain_kun_pickaxe_final": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["trainees:kun_pickaxe_final"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "experience": 30
+    }
+}

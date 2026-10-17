@@ -1,0 +1,31 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:big_ahkun_apple"
+    },
+    "title": {
+      "translate": "advancements.trainees.eat_big_kun.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.eat_big_kun.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trainees:food/real_apple",
+  "criteria": {
+    "consume_ahkun_apple": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "items": ["trainees:big_ahkun_apple"]
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 114
+  }
+}

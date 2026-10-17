@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:stone_stick"
+    },
+    "title": {
+      "translate": "advancements.trainees.stone_stick.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.stone_stick.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:root",
+  "criteria": {
+    "obtain_stone_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:stone_stick"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

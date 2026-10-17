@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "BEB",
+    " R "
+  ],
+  "key": {
+    "E": { "item": "minecraft:egg" },
+    "S": { "item": "minecraft:stick"},
+    "B": { "item": "minecraft:bone_meal"},
+    "R": { "item": "minecraft:red_dye"}
+  },
+  "result": {
+    "item": "trainees:real_apple",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:egg"]
+          }
+        ]
+      }
+    }
+  }
+}

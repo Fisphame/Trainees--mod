@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:myblock"
+    },
+    "title": {
+      "translate": "advancements.trainees.myblock.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.myblock.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trainees:items/kun_pickaxe_final",
+  "criteria": {
+    "obtain_myblock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:myblock"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1145
+  }
+}

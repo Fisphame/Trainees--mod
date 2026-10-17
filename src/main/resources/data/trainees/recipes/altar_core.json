@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TBT",
+        "BHB",
+        "TBT"
+    ],
+    "key": {
+        "B": { "item": "minecraft:gold_ingot" },
+        "T": { "item": "trainees:two_half_ingot" },
+        "H": { "item": "trainees:tenebris_plume_heart"}
+    },
+    "result": { "item": "trainees:altar_core", "count": 1 }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "trainees:trainer_altar",
+  "input1": {
+    "item": "minecraft:diamond"
+  },
+  "input2": {
+    "item": "trainees:upgrade_theme"
+  },
+  "input3": {
+    "item": "minecraft:diamond"
+  },
+  "input4": {
+    "item": "trainees:two_half_ingot"
+  },
+  "result": {
+    "item": "trainees:upgrade_theme",
+    "count": 2
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 120000,
+  "input1": {
+    "item": "trainees:powder_anti"
+  },
+  "input2": {
+    "item": "trainees:powder_anti"
+  },
+  "input3": {
+    "item": "trainees:powder_anti"
+  },
+  "input4": {
+    "item": "trainees:powder_anti"
+  },
+  "result": {
+    "item": "trainees:powder_anti_4",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

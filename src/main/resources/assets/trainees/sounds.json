@@ -1,0 +1,128 @@
+{
+  "ahkun_sound": {
+    "sounds": [
+      "trainees:ahkun_sound"
+    ],
+    "subtitle": "subtitles.trainees.ahkun_sound"
+  },
+  "mining_sound_1": {
+    "sounds": [
+      "trainees:mining_sound_1"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_1"
+  },
+  "mining_sound_2": {
+    "sounds": [
+      "trainees:mining_sound_2"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_2"
+  },
+  "mining_sound_3": {
+    "sounds": [
+      "trainees:mining_sound_3"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_3"
+  },
+  "mining_sound_4": {
+    "sounds": [
+      "trainees:mining_sound_4"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_4"
+  },
+  "mining_sound_5": {
+    "sounds": [
+      "trainees:mining_sound_5"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_5"
+  },
+  "mining_sound_6": {
+    "sounds": [
+      "trainees:mining_sound_6"
+    ],
+    "subtitle": "subtitles.trainees.mining_sound_6"
+  },
+  "final_mining_sound_1": {
+    "sounds": [
+      "trainees:final_mining_sound_1"
+    ],
+    "subtitle": "subtitles.trainees.final_mining_sound_1"
+  },
+  "final_mining_sound_2": {
+    "sounds": [
+      "trainees:final_mining_sound_2"
+    ],
+    "subtitle": "subtitles.trainees.final_mining_sound_2"
+  },
+  "final_mining_sound_3": {
+    "sounds": [
+      "trainees:final_mining_sound_3"
+    ],
+    "subtitle": "subtitles.trainees.final_mining_sound_3"
+  },
+  "final_mining_sound_4": {
+    "sounds": [
+      "trainees:final_mining_sound_4"
+    ],
+    "subtitle": "subtitles.trainees.final_mining_sound_4"
+  },
+  "final_mining_sound_5": {
+    "sounds": [
+      "trainees:final_mining_sound_5"
+    ],
+    "subtitle": "subtitles.trainees.final_mining_sound_5"
+  },
+  "hit": {
+    "sounds": [
+      "trainees:hit"
+    ],
+    "subtitle": "subtitles.trainees.hit"
+  },
+  "hit_reset": {
+    "sounds": [
+      "trainees:hit_reset"
+    ],
+    "subtitle": "subtitles.trainees.hit_reset"
+  },
+  "heavy_hit": {
+    "sounds": [
+      "trainees:heavy_hit"
+    ],
+    "subtitle": "subtitles.trainees.heavy_hit"
+  },
+  "heavy_hit_reset": {
+    "sounds": [
+      "trainees:heavy_hit_reset"
+    ],
+    "subtitle": "subtitles.trainees.heavy_hit_reset"
+  },
+  "heavy_hits": {
+    "sounds": [
+      "trainees:heavy_hits"
+    ],
+    "subtitle": "subtitles.trainees.heavy_hits"
+  },
+  "releasing_sword_wind_1": {
+    "sounds": [
+      "trainees:releasing_sword_wind_1"
+    ],
+    "subtitle": "subtitles.trainees.releasing_sword_wind_1"
+  },
+  "releasing_sword_wind_2": {
+    "sounds": [
+      "trainees:releasing_sword_wind_2"
+    ],
+    "subtitle": "subtitles.trainees.releasing_sword_wind_2"
+  },
+  "releasing_sword_wind_3": {
+    "sounds": [
+      "trainees:releasing_sword_wind_3"
+    ],
+    "subtitle": "subtitles.trainees.releasing_sword_wind_3"
+  },
+  "releasing_sword_wind_4": {
+    "sounds": [
+      "trainees:releasing_sword_wind_4"
+    ],
+    "subtitle": "subtitles.trainees.releasing_sword_wind_4"
+  }
+}

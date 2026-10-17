@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "obtain_cobblestone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "tag": "minecraft:stone_crafting_materials"
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "trainees:stone_stick"
+        ]
+    }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "trainees:extraction",
+  "input": { "item": "minecraft:gold_ingot" },
+  "energy": 120,
+  "time": 10,
+  "cost": 0,
+  "byproducts": [
+    { "item": "minecraft:gold_nugget", "chance": -20 }
+  ]
+}

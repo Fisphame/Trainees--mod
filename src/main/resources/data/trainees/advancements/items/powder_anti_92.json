@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:powder_anti_92"
+    },
+    "title": {
+      "translate": "advancements.trainees.powder_anti_92.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.powder_anti_92.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trainees:entity/kun_anti",
+  "criteria": {
+    "obtain_powder_anti_92": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti_92"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 9,
+    "recipes": [
+      "trainees:powder_anti_93",
+      "trainees:powder_anti_94",
+      "trainees:powder_anti_95",
+      "trainees:powder_anti_96",
+      "trainees:powder_anti_97",
+      "trainees:powder_anti_98",
+      "trainees:powder_anti_99"
+    ]
+  }
+}

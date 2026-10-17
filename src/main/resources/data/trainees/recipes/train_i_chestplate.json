@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "T T",
+    "TTT",
+    "TTT"
+  ],
+  "key": {
+    "T": {
+      "item": "trainees:two_half_ingot"
+    }
+  },
+  "result": {
+    "item": "trainees:train_i_chestplate",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:two_half_ingot"
+          ]
+        }
+      ]
+    }
+  }
+}

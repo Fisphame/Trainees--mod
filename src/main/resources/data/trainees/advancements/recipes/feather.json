@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "obtain_feather": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:feather"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "trainees:feather_block"
+        ]
+    }
+}

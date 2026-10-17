@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:real_apple"
+    },
+    "title": {
+      "translate": "advancements.trainees.real_apple.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.real_apple.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:root",
+  "criteria": {
+    "obtain_real_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:real_apple"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

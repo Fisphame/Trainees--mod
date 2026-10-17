@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "   ",
+    " C ",
+    " C "
+  ],
+  "key": {
+    "C": { "tag": "forge:cobblestone" }
+  },
+  "result": {
+    "item": "trainees:stone_stick_t",
+    "count": 4
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:cobblestone"]
+          }
+        ]
+      }
+    }
+  }
+}

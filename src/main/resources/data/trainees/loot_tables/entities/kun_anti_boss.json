@@ -1,0 +1,69 @@
+{
+    "type": "minecraft:entity",
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "trainees:tenebris_plume_heart",
+                    "functions": [
+                        { "function": "minecraft:set_count", "count": 1 }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:feather",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "min": 2, "max": 4 }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:chicken",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_count",
+                            "count": { "min": 1, "max": 2 }
+                        }
+                    ]
+                }
+            ]
+        },
+        
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:alternatives",
+                    "children": [
+                        {
+                            "type": "minecraft:item",
+                            "name": "trainees:powder_anti",
+                            "functions": [
+                                { "function": "minecraft:set_count", "count": { "min": 10, "max": 15 } },
+                                { "function": "minecraft:looting_enchant", "count": { "min": 7, "max": 15 } }
+                            ],
+                            "conditions": [
+                                { "condition": "minecraft:inverted", "term": { "condition": "minecraft:random_chance", "chance": 0.05 } }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

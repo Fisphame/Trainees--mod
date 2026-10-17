@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_placium_small",
+    "trainees:ore_placium_buried",
+    "trainees:ore_placium_large",
+    "trainees:ore_placium_deep"
+  ],
+  "step": "underground_ores"
+}

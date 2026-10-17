@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "phase": "SOLID",
+  "molarMass": 120.0,
+  "specificHeat": 60.0,
+  "formationEnthalpy": -150.0,
+  "formationGibbs": -160.0,
+  "toxicity": 0,
+  "flameColor": "0xFFCC88",
+  "displayColor": "0xFFCC88",
+  "form": "CRYSTAL",
+  "tags": [],
+  "stableRange": { "min": 0, "max": 2000 }
+}

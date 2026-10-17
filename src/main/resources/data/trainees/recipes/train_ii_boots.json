@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:train_i_boots"
+    },
+    {
+      "item": "trainees:upgrade_theme_armor"
+    }
+  ],
+  "result": {
+    "item": "trainees:train_ii_boots",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:upgrade_theme_armor"
+          ]
+        }
+      ]
+    }
+  }
+}

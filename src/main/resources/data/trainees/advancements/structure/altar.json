@@ -1,0 +1,26 @@
+{
+    "display": {
+        "icon": {
+            "item": "trainees:altar_core_block"
+        },
+        "title": {
+            "translate": "advancements.trainees.altar.title"
+        },
+        "description": {
+            "translate": "advancements.trainees.altar.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "trainees:root",
+    "criteria": {
+        "activate_altar": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 15
+    }
+}

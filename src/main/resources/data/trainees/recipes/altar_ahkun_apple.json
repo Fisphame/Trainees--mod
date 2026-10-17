@@ -1,0 +1,32 @@
+﻿{
+  "type": "trainees:trainer_altar",
+  "mana": 4000,
+  "input1": {
+    "item": "minecraft:enchanted_golden_apple"
+  },
+  "input2": {
+    "item": "minecraft:gold_ingot"
+  },
+  "input3": {
+    "tag": "trainees:feather"
+  },
+  "input4": {
+    "item": "trainees:two_half_ingot"
+  },
+  "result": {
+    "item": "trainees:ahkun_apple",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:altar_core_block"
+          ]
+        }
+      ]
+    }
+  }
+}

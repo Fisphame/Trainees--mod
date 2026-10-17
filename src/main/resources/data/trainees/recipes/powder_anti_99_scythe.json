@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PPP",
+    "  S",
+    "  S"
+  ],
+  "key": {
+    "P": { "item": "trainees:powder_anti_99" },
+    "S": { "item": "trainees:stone_stick" }
+  },
+  "result": {
+    "item": "trainees:powder_anti_99_scythe",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti_99"]
+          }
+        ]
+      }
+    }
+  }
+
+}

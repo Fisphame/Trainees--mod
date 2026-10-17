@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "TBT",
+        "BAB",
+        "TBT"
+    ],
+    "key": {
+        "A": { "item": "trainees:altar_core" },
+        "B": { "item": "minecraft:gold_ingot" },
+        "T": { "item": "trainees:anti_two_half_ingot_block" }
+    },
+    "result": { "item": "trainees:altar_core_block", "count": 1 }
+}

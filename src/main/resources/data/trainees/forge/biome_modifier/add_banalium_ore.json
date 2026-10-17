@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_banalium_small",
+    "trainees:ore_banalium_buried",
+    "trainees:ore_banalium_large",
+    "trainees:ore_banalium_deep"
+  ],
+  "step": "underground_ores"
+}

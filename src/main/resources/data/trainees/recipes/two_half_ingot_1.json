@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " K ",
+    "KKK",
+    " K "
+  ],
+  "key": {
+    "K": { "item": "trainees:kun_nugget" }
+  },
+  "result": {
+    "item": "trainees:two_half_ingot",
+    "count": 2
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:kun_nugget"]
+        }
+      ]
+    }
+  }
+}

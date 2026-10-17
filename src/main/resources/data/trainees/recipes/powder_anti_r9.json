@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "trainees:powder_anti_9" }
+  ],
+  "result": {
+    "item": "trainees:powder_anti",
+    "count": 9
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti_9"]
+          }
+        ]
+      }
+    }
+  }
+
+}

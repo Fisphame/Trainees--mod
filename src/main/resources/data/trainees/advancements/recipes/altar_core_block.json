@@ -1,0 +1,35 @@
+{
+  "criteria": {
+    "obtain_altar_core_block": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:altar_core_block"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10,
+    "recipes": [
+      "trainees:altar_ahkun_apple",
+      "trainees:altar_basketball_anti",
+      "trainees:altar_big_ahkun_apple",
+      "trainees:altar_enchanted_golden_apple",
+      "trainees:altar_gold_egg",
+      "trainees:altar_kun_axemace",
+      "trainees:altar_kun_basketball",
+      "trainees:altar_kun_compound_scythe",
+      "trainees:altar_kun_pickaxe_final",
+      "trainees:altar_powder_anti_4",
+      "trainees:altar_train_iii_boots",
+      "trainees:altar_train_iii_chestplate",
+      "trainees:altar_train_iii_helmet",
+      "trainees:altar_train_iii_leggings",
+      "trainees:altar_upgrade_theme",
+      "trainees:altar_upgrade_theme_armor"
+    ]
+  }
+}

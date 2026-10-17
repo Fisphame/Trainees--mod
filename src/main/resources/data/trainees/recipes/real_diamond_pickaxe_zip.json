@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    { "item": "trainees:the_the_longest_real_diamond_pickaxe" },
+    { "item": "trainees:upgrade_theme" }
+  ],
+  "result": {
+    "item": "trainees:real_diamond_pickaxe_zip",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:the_the_longest_real_diamond_pickaxe"]
+        }
+      ]
+    }
+  }
+}

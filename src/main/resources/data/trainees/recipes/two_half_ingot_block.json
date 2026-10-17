@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    },
+    {
+      "item": "trainees:two_half_ingot"
+    }
+  ],
+  "result": {
+    "item": "trainees:two_half_ingot_block",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:two_half_ingot"
+          ]
+        }
+      ]
+    }
+  }
+}

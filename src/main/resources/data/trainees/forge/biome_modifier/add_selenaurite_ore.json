@@ -1,0 +1,11 @@
+{
+    "type": "forge:add_features",
+    "biomes": "#minecraft:is_overworld",
+    "features": [
+        "trainees:ore_selenaurite_small",
+        "trainees:ore_selenaurite_buried",
+        "trainees:ore_selenaurite_large",
+        "trainees:ore_selenaurite_deep"
+    ],
+    "step": "underground_ores"
+}

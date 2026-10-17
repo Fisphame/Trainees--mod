@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:upgrade_theme"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    },
+    {
+      "item": "trainees:che_jibp_piece"
+    }
+  ],
+  "result": {
+    "item": "trainees:upgrade_theme_armor",
+    "count": 3
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:upgrade_theme"
+          ]
+        }
+      ]
+    }
+  }
+}

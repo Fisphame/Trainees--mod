@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    " S ",
+    " S "
+  ],
+  "key": {
+    "D": { "item": "minecraft:diamond_pickaxe" },
+    "S": { "item": "minecraft:stick" }
+  },
+  "result": {
+    "item": "trainees:real_diamond_pickaxe"
+  },
+  "unlockedBy": {
+    "trigger": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["minecraft:diamond_pickaxe"]
+          }
+        ]
+      }
+    }
+  }
+}

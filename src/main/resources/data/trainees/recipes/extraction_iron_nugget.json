@@ -1,0 +1,12 @@
+{
+  "type": "trainees:extraction",
+  "input": { "item": "minecraft:iron_nugget" },
+  "energy": 40,
+  "time": 5,
+  "cost": 0,
+  "byproducts": [
+    { "item": "minecraft:iron_nugget", "chance": 0 }
+  ],
+  "minTier": 0,
+  "maxTier": 4
+}

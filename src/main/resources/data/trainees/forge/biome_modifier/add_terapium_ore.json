@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_terapium_small",
+    "trainees:ore_terapium_buried",
+    "trainees:ore_terapium_large",
+    "trainees:ore_terapium_deep"
+  ],
+  "step": "underground_ores"
+}

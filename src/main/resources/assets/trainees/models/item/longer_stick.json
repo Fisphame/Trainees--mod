@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "trainees:item/long_stick"
+  },
+  "display": {
+    "gui": {
+      "scale": [3.0, 3.0, 3.0],
+      "translation": [15, 15, 0]
+    },
+    "ground": {
+      "scale": [2.25, 2.25, 2.25],
+      "translation": [0, 1, 0]
+    },
+    "fixed": {
+      "scale": [3.0, 3.0, 3.0]
+    },
+    "thirdperson_righthand": {
+      "scale": [2.25, 2.25, 2.25],
+      "rotation": [0, -90, 55]
+    },
+    "firstperson_righthand": {
+      "scale": [2.55, 2.55, 2.55],
+      "rotation": [0, -90, 25]
+    },
+    "thirdperson_lefthand": {
+      "scale": [2.25, 2.25, 2.25],
+      "rotation": [0, 90, -55]
+    },
+    "firstperson_lefthand": {
+      "scale": [2.55, 2.55, 2.55],
+      "rotation": [0, 90, -25]
+    }
+  }
+}

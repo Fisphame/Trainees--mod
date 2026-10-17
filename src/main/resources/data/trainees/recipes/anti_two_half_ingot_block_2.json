@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        { "item": "trainees:powder_anti_4" },
+        { "item": "trainees:two_half_ingot_block" }
+    ],
+    "result": { "item": "trainees:anti_two_half_ingot_block", "count": 1 },
+    "unlockedBy": {
+        "trigger": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["trainees:two_half_ingot_block"]
+                    }
+                ]
+            }
+        }
+    }
+}

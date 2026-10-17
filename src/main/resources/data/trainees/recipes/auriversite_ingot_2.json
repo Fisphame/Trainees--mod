@@ -1,0 +1,48 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    },
+    {
+      "item": "trainees:auriversite_nugget"
+    }
+  ],
+  "result": {
+    "item": "trainees:auriversite_ingot",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:auriversite_nugget"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "trainees:selenaurite_ore"
+  },
+  "result": {
+    "item": "trainees:selenaurite_ingot",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:selenaurite_ore"]
+        }
+      ]
+    }
+  },
+  "experience": 0.3,
+  "cookingtime": 200
+}

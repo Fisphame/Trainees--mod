@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_nyctium_small",
+    "trainees:ore_nyctium_buried",
+    "trainees:ore_nyctium_large",
+    "trainees:ore_nyctium_deep"
+  ],
+  "step": "underground_ores"
+}

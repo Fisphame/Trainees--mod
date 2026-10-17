@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " LD",
+    " SR",
+    "S  "
+  ],
+  "key": {
+    "D": { "item": "trainees:longer_real_diamond_pickaxe" },
+    "S": { "item": "minecraft:stick" },
+    "R": { "item": "trainees:right_half_diamond_pickaxe"},
+    "L": { "item": "trainees:left_half_diamond_pickaxe"}
+  },
+  "result": {
+    "item": "trainees:longest_real_diamond_pickaxe"
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:real_diamond_pickaxe"]
+        }
+      ]
+    }
+  }
+}

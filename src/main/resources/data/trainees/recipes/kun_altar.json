@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "ABA",
+        "BCB",
+        "ABA"
+    ],
+    "key": {
+        "A": { "item": "trainees:anti_two_half_ingot_block" },
+        "B": { "item": "trainees:gold_feather" },
+        "C": { "item": "trainees:altar_core" }
+    },
+    "result": { "item": "trainees:kun_altar", "count": 4 }
+}

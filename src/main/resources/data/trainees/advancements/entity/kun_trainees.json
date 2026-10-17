@@ -1,0 +1,31 @@
+{
+    "display": {
+        "icon": {
+            "item": "trainees:kun_egg"
+        },
+        "title": {
+            "translate": "advancements.trainees.kun_trainees.title"
+        },
+        "description": {
+            "translate": "advancements.trainees.kun_trainees.description"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "parent": "trainees:root",
+    "criteria": {
+        "killed_kun_trainees": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "trainees:kun_trainees"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "experience": 5
+    }
+}

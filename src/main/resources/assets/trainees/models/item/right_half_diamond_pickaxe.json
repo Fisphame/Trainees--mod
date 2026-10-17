@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "trainees:item/right_half_diamond_pickaxe"
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "obtain_egg": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:egg"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "trainees:real_apple"
+        ]
+    }
+}

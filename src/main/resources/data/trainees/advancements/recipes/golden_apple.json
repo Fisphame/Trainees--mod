@@ -1,0 +1,19 @@
+{
+    "criteria": {
+        "obtain_golden_apple": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "items": [
+                    {
+                        "items": ["minecraft:golden_apple"]
+                    }
+                ]
+            }
+        }
+    },
+    "rewards": {
+        "recipes": [
+            "trainees:enchanted_golden_apple"
+        ]
+    }
+}

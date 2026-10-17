@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "QQQ",
+    "QGQ",
+    "QQQ"
+  ],
+  "key": {
+    "Q": { "item": "minecraft:quartz_block" },
+    "G": { "item": "minecraft:glass" }
+  },
+  "result": {
+    "item": "trainees:quartz_reactor",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:metal_reactor"
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+﻿{
+  "replace": false,
+  "values": [
+    "trainees:essence_port_wall",
+    "trainees:essence_input_bus",
+    "trainees:essence_output_bus",
+    "trainees:essence_wireless_input_bus",
+    "trainees:essence_wireless_output_bus",
+    "trainees:essence_expansion_interface"
+  ]
+}

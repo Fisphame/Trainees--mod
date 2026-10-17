@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:real_diamond_pickaxe"
+    },
+    "title": {
+      "translate": "advancements.trainees.real_diamond_pickaxe.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.real_diamond_pickaxe.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "trainees:items/stone_stick",
+  "criteria": {
+    "obtain_stone_stick": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:real_diamond_pickaxe"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5,
+    "recipes": [
+      "trainees:left_half_diamond_pickaxe",
+      "trainees:right_half_diamond_pickaxe",
+      "trainees:long_real_diamond_pickaxe",
+      "trainees:longer_real_diamond_pickaxe",
+      "trainees:longest_real_diamond_pickaxe",
+      "trainees:the_longest_real_diamond_pickaxe",
+      "trainees:the_the_longest_real_diamond_pickaxe"
+    ]
+  }
+}

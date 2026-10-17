@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "trainees:kun_altar",
+    "trainees:two_half_ingot_block",
+    "trainees:waxed_two_half_ingot_block",
+    "trainees:auriversite_block",
+    "trainees:selenaurite_ore",
+    "trainees:deepslate_selenaurite_ore",
+    "trainees:selenaurite_block",
+    "trainees:nyctium_ore",
+    "trainees:deepslate_nyctium_ore",
+    "trainees:nyctium_block",
+    "trainees:banalium_block",
+    "trainees:terapium_ore",
+    "trainees:deepslate_terapium_ore",
+    "trainees:terapium_block",
+    "trainees:nivtium_ore",
+    "trainees:deepslate_nivtium_ore",
+    "trainees:nivtium_block",
+    "trainees:crucium_ore",
+    "trainees:deepslate_crucium_ore",
+    "trainees:crucium_block",
+    "trainees:sertium_ore",
+    "trainees:deepslate_sertium_ore",
+    "trainees:sertium_block",
+    "trainees:placium_ore",
+    "trainees:deepslate_placium_ore",
+    "trainees:placium_block"
+  ]
+}

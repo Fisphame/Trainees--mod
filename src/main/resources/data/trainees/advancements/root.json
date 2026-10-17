@@ -1,0 +1,24 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:kun_axe"
+    },
+    "title": {
+      "translate": "advancements.trainees.root.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.root.description"
+    },
+    "background": "trainees:textures/block/two_half_ingot_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick",
+      "conditions": {}
+    }
+  }
+}

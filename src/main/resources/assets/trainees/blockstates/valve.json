@@ -1,0 +1,6 @@
+{
+  "variants": {
+    "open=false": { "model": "trainees:block/valve" },
+    "open=true": { "model": "trainees:block/valve_open" }
+  }
+}

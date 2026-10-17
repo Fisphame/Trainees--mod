@@ -1,0 +1,6 @@
+﻿{
+  "type": "trainees:aggregation",
+  "energy": 1600,
+  "time": 20,
+  "result": { "item": "trainees:refined_point", "count": 1 }
+}

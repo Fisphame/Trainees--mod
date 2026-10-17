@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "trainees:auriversite_block"
+    }
+  ],
+  "result": {
+    "item": "trainees:auriversite_ingot",
+    "count": 9
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:auriversite_block"
+          ]
+        }
+      ]
+    }
+  }
+}

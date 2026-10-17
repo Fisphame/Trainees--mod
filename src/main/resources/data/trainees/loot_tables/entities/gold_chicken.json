@@ -1,0 +1,86 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "trainees:gold_feather",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "function": "minecraft:looting_enchant",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:chicken",
+          "functions": [
+            {
+              "function": "minecraft:furnace_smelt",
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "flags": {
+                      "is_on_fire": true
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+
+
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond",
+              "functions": [ { "function": "minecraft:set_count", "count": 1 } ],
+              "conditions": [ { "condition": "minecraft:random_chance", "chance": 0.05 } ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gold_ingot",
+              "functions": [
+                { "function": "minecraft:set_count", "count": { "min": 4, "max": 9 } },
+                { "function": "minecraft:looting_enchant", "count": { "min": 5, "max": 15 } }
+              ],
+              "conditions": [
+                { "condition": "minecraft:inverted", "term": { "condition": "minecraft:random_chance", "chance": 0.05 } }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

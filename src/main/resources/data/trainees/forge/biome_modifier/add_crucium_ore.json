@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_crucium_small",
+    "trainees:ore_crucium_buried",
+    "trainees:ore_crucium_large",
+    "trainees:ore_crucium_deep"
+  ],
+  "step": "underground_ores"
+}

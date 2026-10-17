@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "trainees:item/the_longest_real_diamond_pickaxe"
+  },
+  "display": {
+    "gui": {
+      "scale": [6.0, 6.0, 6.0],
+      "translation": [22, 22, 0]
+    },
+    "ground": {
+      "scale": [4.5, 4.5, 4.5],
+      "translation": [0, 1, 0]
+    },
+    "fixed": {
+      "scale": [6.0, 6.0, 6.0]
+    },
+    "thirdperson_righthand": {
+      "scale": [4.5, 4.5, 4.5],
+      "rotation": [0, -90, 55]
+    },
+    "firstperson_righthand": {
+      "scale": [5.1, 5.1, 5.1],
+      "rotation": [0, -90, 25]
+    },
+    "thirdperson_lefthand": {
+      "scale": [4.5, 4.5, 4.5],
+      "rotation": [0, 90, -55]
+    },
+    "firstperson_lefthand": {
+      "scale": [5.1, 5.1, 5.1],
+      "rotation": [0, 90, -25]
+    }
+  }
+}

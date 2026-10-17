@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AA",
+    " SA",
+    "S  "
+  ],
+  "key": {
+    "A": {
+      "item": "trainees:auriversite_ingot"
+    },
+    "S": {
+      "tag": "trainees:stone_stick"
+    }
+  },
+  "result": {
+    "item": "trainees:auriversite_rapier",
+    "count": 1
+  },
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": [
+            "trainees:auriversite_ingot"
+          ]
+        }
+      ]
+    }
+  }
+}

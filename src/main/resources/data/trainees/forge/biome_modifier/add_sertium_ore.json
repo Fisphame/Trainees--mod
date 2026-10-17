@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": [
+    "trainees:ore_sertium_small",
+    "trainees:ore_sertium_buried",
+    "trainees:ore_sertium_large",
+    "trainees:ore_sertium_deep"
+  ],
+  "step": "underground_ores"
+}

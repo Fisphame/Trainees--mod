@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "trainees:upgrade_theme"
+    },
+    "title": {
+      "translate": "advancements.trainees.upgrade_theme.title"
+    },
+    "description": {
+      "translate": "advancements.trainees.upgrade_theme.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "trainees:items/stone_stick",
+  "criteria": {
+    "obtain_upgrade_theme": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:upgrade_theme"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5
+  }
+}

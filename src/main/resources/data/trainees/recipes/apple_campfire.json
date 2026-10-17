@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient": {
+    "item": "trainees:real_apple"
+  },
+  "result": "minecraft:apple",
+  "experience": 0.2,
+  "cookingtime": 500,
+  "unlockedBy": {
+    "trigger": "minecraft:inventory_changed",
+    "conditions": {
+      "items": [
+        {
+          "items": ["trainees:real_apple"]
+        }
+      ]
+    }
+  }
+}

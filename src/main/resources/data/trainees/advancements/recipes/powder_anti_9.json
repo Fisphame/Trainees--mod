@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "obtain_powder_anti_9": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": ["trainees:powder_anti_9"]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "recipes": [
+      "trainees:powder_anti_r9",
+      "trainees:powder_anti_92"
+    ]
+  }
+}
