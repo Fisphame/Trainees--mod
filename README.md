@@ -46,4 +46,5 @@ data/<namespace>/chemistry/hazard_kinds.json  危险杂质映射（可选）
 
 ## 许可
 
-见 `DISCLAIMER.md`。请勿把本模组的化学模拟当作实验依据。
+引擎部分采用 **MIT**（见 `LICENSE`）。**内容包不在本仓库**，不适用该许可，其授权方式由作者另行决定。
+另见 `DISCLAIMER.md`：请勿把本模组的化学模拟当作实验依据。
